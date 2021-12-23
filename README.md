@@ -53,7 +53,14 @@ TTA denotes test time augmentation.
 
 ### Installation
 
-Please refer to [get_started.md](https://github.com/open-mmlab/mmdetection/blob/master/docs/get_started.md) for installation and dataset preparation.
+Please refer to [get_started.md](https://github.com/open-mmlab/mmdetection/blob/master/docs/get_started.md) for mmcv installation and dataset preparation.
+Run following command to install the project
+```
+git clone https://github.com/jahongir7174/CBNetV2.git
+cd CBNetV2
+pip install -r requirements/build.txt
+pip install -v -e .  # or "python setup.py develop"
+```
 
 ### Inference
 ```
